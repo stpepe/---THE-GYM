@@ -1,0 +1,27 @@
+input {
+    display:block;
+    font: 18px;
+}
+
+#bg {
+    background: #212529;
+}
+
+#res_tab div{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#res_tab > div:last-child{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.mind_type{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
